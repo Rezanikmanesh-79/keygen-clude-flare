@@ -1,3 +1,7 @@
 scp .\cert.pem Shinigami@SERVER_IP:/home/Shinigami/.jitsi-meet-cfg/web/keys/cert.crt
 
 scp .\key.pem Shinigami@SERVER_IP:/home/Shinigami/.jitsi-meet-cfg/web/keys/cert.key
+
+
+chmod 644 /home/Shinigami/.jitsi-meet-cfg/web/keys/cert.crt
+chmod 600 /home/Shinigami/.jitsi-meet-cfg/web/keys/cert.key
