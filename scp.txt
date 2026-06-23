@@ -1,0 +1,3 @@
+scp .\cert.pem Shinigami@SERVER_IP:/home/Shinigami/.jitsi-meet-cfg/web/keys/cert.crt
+
+scp .\key.pem Shinigami@SERVER_IP:/home/Shinigami/.jitsi-meet-cfg/web/keys/cert.key
